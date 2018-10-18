@@ -12,8 +12,6 @@
         <script src="http://api.html5media.info/1.1.4/html5media.min.js"></script>
         <link href="css/articleCss.css" rel="stylesheet" type="text/css"/>
         <script src="js/add_article.js" type="text/javascript"></script>
-
-
         <title>添加文章</title>
     </head>
     <body>
@@ -39,6 +37,11 @@
                         <input type="reset" name="Submit2" class="divBtnReturn" value="返回" />
                     </div>
                 </form> 
+                <p>x</p>
+                 <p>x</p>
+                  <p>x</p>
+                   <p>x</p>
+                    <p>x</p>
             </div> 
         </div> 
         <script type="text/javascript">

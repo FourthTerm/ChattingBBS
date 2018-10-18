@@ -55,11 +55,12 @@ public final class add_005farticle_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("        <script src=\"http://api.html5media.info/1.1.4/html5media.min.js\"></script>\n");
       out.write("        <link href=\"css/articleCss.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
       out.write("        <script src=\"js/add_article.js\" type=\"text/javascript\"></script>\n");
-      out.write("\n");
-      out.write("\n");
       out.write("        <title>添加文章</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
+      out.write("        ");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "head.jsp", out, true);
+      out.write("\n");
       out.write("        <div class=\"divAll\"> \n");
       out.write("            <div id=\"titles\">添加新文章</div> \n");
       out.write("            <div id=\"contents\"> \n");

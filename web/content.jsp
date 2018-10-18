@@ -1,4 +1,4 @@
-<%@page import="com.blog.model.Article"%>
+<%@page import="com.chattingbbs.model.Article"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%

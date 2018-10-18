@@ -1,6 +1,6 @@
+<%@page import="com.chattingbbs.dao.ArticleDao"%>
+<%@page import="com.chattingbbs.model.Article"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.blog.dao.ArticleDao"%>
-<%@page import="com.blog.model.Article"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <% 

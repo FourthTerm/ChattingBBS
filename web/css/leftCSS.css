@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-10-18, 13:34:47
+    Author     : lan
+*/
+.type{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+table { margin: 10px auto;border-collapse: collapse;}
+td {width:150px;text-align: center; position: relative;}
+/* 盒子四周都有边框，可以单独制定某个方向的边框，最后一个td可以使用:last-child这样的伪类选择器单独指定样式 */
+td:last-child { border-right:none; }
+td:hover {cursor: pointer; }
+a:link {
+    color: #333333;
+    background-repeat: no-repeat;
+    //display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+a:visited {
+    color: #333333;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+a:active {
+    color: #333333;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-decoration: none;
+}
+a:hover {
+    color:blue;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
